@@ -1,0 +1,16 @@
+plugin.tx_trbcetext {
+	view {
+		templateRootPath = {$plugin.tx_trbcetext.view.templateRootPath}
+		partialRootPath = {$plugin.tx_trbcetext.view.partialRootPath}
+		layoutRootPath = {$plugin.tx_trbcetext.view.layoutRootPath}
+	}
+}
+
+tt_content.text >
+tt_content.text = USER
+tt_content.text {
+	userFunc = TYPO3\CMS\Extbase\Core\Bootstrap->run
+	vendorName = TRB
+	extensionName = TrbCeText
+	pluginName = text
+}

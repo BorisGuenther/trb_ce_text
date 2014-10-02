@@ -1,0 +1,14 @@
+# customsubcategory=trb_ce_text=Text
+
+plugin.tx_trbcetext {
+	view {
+		# cat=TRB Common: Paths/trb_ce_text/10; type=string; label=Templates Root Path;
+		templateRootPath = EXT:trb_ce_text/Resources/Private/Templates/
+
+		# cat=TRB Common: Paths/trb_ce_text/20; type=string; label=Partials Root Path;
+		partialRootPath = EXT:trb_ce_text/Resources/Private/Partials/
+
+		# cat=TRB Common: Paths/trb_ce_text/30; type=string; label=Layouts Root Path;
+		layoutRootPath = EXT:trb_ce_text/Resources/Private/Layouts/		
+	}
+}
